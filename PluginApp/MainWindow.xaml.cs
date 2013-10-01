@@ -22,16 +22,22 @@ namespace PluginApp
             string[] dlls = Directory.GetFiles(currentDirectory, "*.dll");
             foreach (string file in dlls)
             {
-                IEnumerable<TypeInfo> types = Assembly.LoadFrom(file).DefinedTypes;
-                foreach (TypeInfo type in types)
+                Type[] types = Assembly.LoadFrom(file).GetTypes();
+                foreach (Type type in types)
                 {
-                    listingPanel.addPlugin(type.GetType(), executionPanel);
+                    if (type.IsSubclassOf(typeof(AbstractPlugin)))
+                    {
+                        AbstractPlugin pluginToAdd = (AbstractPlugin)Activator.CreateInstance(type);
+                        executionPanel.addPlugin(pluginToAdd);
+                        pluginToAdd.StatusPosted += statusPanel.postStatus;
+                        PluginButton newPluginButton = listingPanel.addPlugin(type);
+                        if (null != newPluginButton)
+                        {
+                            newPluginButton.OpenPlugin += executionPanel.switchPlugin;
+                        }
+                    }
                 }
             }
-            // grab all the types from the dlls
-            // create a PluginButton for each of the dlls and add them to the listing panel
-            // for each PluginButton, PluginButton.OpenPlugin += executionPanel.switchPlugin
-            // layout and display all of the panels
         }
     }
 }

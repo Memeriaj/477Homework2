@@ -9,3 +9,14 @@ E:\Documents\Software Architecture\477Homework2\TestPlugin\obj\Debug\TestPlugin_
 E:\Documents\Software Architecture\477Homework2\TestPlugin\obj\Debug\TestPlugin.g.resources
 E:\Documents\Software Architecture\477Homework2\TestPlugin\obj\Debug\TestPlugin.dll
 E:\Documents\Software Architecture\477Homework2\TestPlugin\obj\Debug\TestPlugin.pdb
+C:\Users\macaslje\Documents\_Rose-Hulman\_2013-2014\_Fall\1 Software Architecture\477Homework2\TestPlugin\obj\Debug\TestPlugin.csprojResolveAssemblyReference.cache
+C:\Users\macaslje\Documents\_Rose-Hulman\_2013-2014\_Fall\1 Software Architecture\477Homework2\TestPlugin\obj\Debug\UserControl1.baml
+C:\Users\macaslje\Documents\_Rose-Hulman\_2013-2014\_Fall\1 Software Architecture\477Homework2\TestPlugin\obj\Debug\UserControl1.g.cs
+C:\Users\macaslje\Documents\_Rose-Hulman\_2013-2014\_Fall\1 Software Architecture\477Homework2\TestPlugin\obj\Debug\TestPlugin_MarkupCompile.cache
+C:\Users\macaslje\Documents\_Rose-Hulman\_2013-2014\_Fall\1 Software Architecture\477Homework2\TestPlugin\obj\Debug\TestPlugin.g.resources
+C:\Users\macaslje\Documents\_Rose-Hulman\_2013-2014\_Fall\1 Software Architecture\477Homework2\TestPlugin\bin\Debug\TestPlugin.dll
+C:\Users\macaslje\Documents\_Rose-Hulman\_2013-2014\_Fall\1 Software Architecture\477Homework2\TestPlugin\bin\Debug\TestPlugin.pdb
+C:\Users\macaslje\Documents\_Rose-Hulman\_2013-2014\_Fall\1 Software Architecture\477Homework2\TestPlugin\bin\Debug\PluginApp.exe
+C:\Users\macaslje\Documents\_Rose-Hulman\_2013-2014\_Fall\1 Software Architecture\477Homework2\TestPlugin\bin\Debug\PluginApp.pdb
+C:\Users\macaslje\Documents\_Rose-Hulman\_2013-2014\_Fall\1 Software Architecture\477Homework2\TestPlugin\obj\Debug\TestPlugin.dll
+C:\Users\macaslje\Documents\_Rose-Hulman\_2013-2014\_Fall\1 Software Architecture\477Homework2\TestPlugin\obj\Debug\TestPlugin.pdb

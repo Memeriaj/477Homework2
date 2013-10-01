@@ -1,17 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace PluginApp
 {
@@ -25,20 +15,17 @@ namespace PluginApp
         public ExecutionPanel()
         {
             InitializeComponent();
+            this.Background = Brushes.LightSkyBlue;
+        }
+
+        public void addPlugin(AbstractPlugin pluginToAdd)
+        {
+            initializedPlugins.Add(pluginToAdd.GetType(), pluginToAdd);
         }
 
         public void switchPlugin(object obj, PluginSelectedEventArgs args)
         {
-            if (!initializedPlugins.ContainsKey(args.PluginType))
-            {
-                initializedPlugins.Add(args.PluginType, (AbstractPlugin)Activator.CreateInstance(args.PluginType));
-                this.Content = initializedPlugins[args.PluginType].Content2;
-            }
-            else
-            {
-                this.Content = initializedPlugins[args.PluginType].Content2;
-            }
-
+            this.Content = initializedPlugins[args.PluginType].Content2;
         }
     }
 }

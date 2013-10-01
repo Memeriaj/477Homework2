@@ -27,7 +27,7 @@ namespace PluginApp
 
         public void postStatus(object sender, StatusPostedEventArgs args)
         {
-            statusBox.Text = statusBox.Text + "\n" + args.Status;
+            statusBox.Text = sender.GetType().ToString() + ": " + args.Status + "\n" + statusBox.Text;
         }
     }
 }

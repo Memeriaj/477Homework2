@@ -5,13 +5,12 @@ namespace PluginApp
 {
     public class PluginButton : Button
     {
-        private string name;
         private Type pluginType;
         public event EventHandler<PluginSelectedEventArgs> OpenPlugin;
 
         public PluginButton(string name, Type pluginType)
         {
-            this.name = name;
+            this.Content = name;
             this.pluginType = pluginType;
         }
 

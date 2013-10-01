@@ -21,10 +21,17 @@ namespace TestPlugin
     /// </summary>
     public partial class UserControl1 : UserControl
     {
-        public UserControl1()
+        public Action PostAction {get; set;}
+
+        public UserControl1(Action post)
         {
             InitializeComponent();
-            
+            PostAction = post;
+        }
+
+        private void postStatus(object sender, RoutedEventArgs e)
+        {
+            PostAction();
         }
     }
 }
