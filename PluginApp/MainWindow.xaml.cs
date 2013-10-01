@@ -25,8 +25,8 @@ namespace PluginApp
                 IEnumerable<TypeInfo> types = Assembly.LoadFrom(file).DefinedTypes;
                 foreach (TypeInfo type in types)
                 {
+                    listingPanel.addPlugin(type.GetType(), executionPanel);
                 }
-
             }
             // grab all the types from the dlls
             // create a PluginButton for each of the dlls and add them to the listing panel

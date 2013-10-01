@@ -20,11 +20,19 @@ namespace PluginApp
     /// </summary>
     public partial class ListingPanel : UserControl
     {
-        public List<Button> pluginButtons = new List<Button>();
-
         public ListingPanel()
         {
             InitializeComponent();
+        }
+
+        internal void addPlugin(Type type, ExecutionPanel executionPanel)
+        {
+            if (type.IsSubclassOf(typeof(AbstractPlugin)))
+            {
+                PluginButton newPluginButton = new PluginButton(type.ToString(), type);
+                pluginList.Items.Add(newPluginButton);
+                newPluginButton.OpenPlugin += executionPanel.switchPlugin;
+            }
         }
     }
 }

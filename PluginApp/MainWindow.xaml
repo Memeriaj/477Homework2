@@ -8,12 +8,13 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="75"/>
         </Grid.RowDefinitions>
-        <Grid Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="518" Height="218" Grid.RowSpan="2">
+        <Grid Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="518" Height="247">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="150"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
+            <pluginApp:ListingPanel x:Name="listingPanel" Grid.Column="0"/>
+            <pluginApp:ExecutionPanel x:Name="executionPanel" Grid.Column="1"/>
         </Grid>
-        <TextBox x:Name="fileList"/>
     </Grid>
 </Window>
