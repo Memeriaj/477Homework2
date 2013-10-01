@@ -1,0 +1,11 @@
+E:\Documents\Software Architecture\477Homework2\TestPlugin\bin\Debug\TestPlugin.dll
+E:\Documents\Software Architecture\477Homework2\TestPlugin\bin\Debug\TestPlugin.pdb
+E:\Documents\Software Architecture\477Homework2\TestPlugin\bin\Debug\PluginApp.exe
+E:\Documents\Software Architecture\477Homework2\TestPlugin\bin\Debug\PluginApp.pdb
+E:\Documents\Software Architecture\477Homework2\TestPlugin\obj\Debug\TestPlugin.csprojResolveAssemblyReference.cache
+E:\Documents\Software Architecture\477Homework2\TestPlugin\obj\Debug\UserControl1.baml
+E:\Documents\Software Architecture\477Homework2\TestPlugin\obj\Debug\UserControl1.g.cs
+E:\Documents\Software Architecture\477Homework2\TestPlugin\obj\Debug\TestPlugin_MarkupCompile.cache
+E:\Documents\Software Architecture\477Homework2\TestPlugin\obj\Debug\TestPlugin.g.resources
+E:\Documents\Software Architecture\477Homework2\TestPlugin\obj\Debug\TestPlugin.dll
+E:\Documents\Software Architecture\477Homework2\TestPlugin\obj\Debug\TestPlugin.pdb
