@@ -3,10 +3,10 @@ using System.Windows.Controls;
 
 namespace PluginApp
 {
-    public abstract class AbstractPlugin
+    public abstract class AbstractPlugin : Panel
     {
         public event EventHandler<StatusPostedEventArgs> StatusPosted;
-        public Panel Content { get; }
+        public UserControl Content2 { get; set; }
 
         protected void OnStatusPosted(string status)
         {

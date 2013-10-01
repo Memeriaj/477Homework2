@@ -20,7 +20,7 @@ namespace PluginApp
     /// </summary>
     public partial class ExecutionPanel : UserControl
     {
-        private List<Type> initializedPlugins = new List<Type>();
+        private Dictionary<Type, AbstractPlugin> initializedPlugins = new Dictionary<Type, AbstractPlugin>();
 
         public ExecutionPanel()
         {
@@ -29,14 +29,16 @@ namespace PluginApp
 
         public void switchPlugin(object obj, PluginSelectedEventArgs args)
         {
-            if (!initializedPlugins.Contains(args.PluginType))
+            if (!initializedPlugins.ContainsKey(args.PluginType))
             {
-                // create the plugin and display it
+                initializedPlugins.Add(args.PluginType, (AbstractPlugin)Activator.CreateInstance(args.PluginType));
+                this.Content = initializedPlugins[args.PluginType].Content2;
             }
             else
             {
-                // find the plugin and display it
+                this.Content = initializedPlugins[args.PluginType].Content2;
             }
+
         }
     }
 }
