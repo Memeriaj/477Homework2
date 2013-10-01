@@ -20,9 +20,15 @@ namespace PluginApp
     /// </summary>
     public partial class MainWindow : Window
     {
+        private StatusPanel statusPanel = new StatusPanel();
+        private ListingPanel listingPanel = new ListingPanel();
+        private ExecutionPanel executionPanel = new ExecutionPanel();
+
         public MainWindow()
         {
             InitializeComponent();
+            // for plugin in ListingPanel.plugins
+            // statusPanel.subscribe
         }
     }
 }

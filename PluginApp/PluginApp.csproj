@@ -57,10 +57,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="AbstractPanel.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="AbstractPlugin.cs" />
+    <Compile Include="PluginEvents.cs" />
+    <Compile Include="StatusPanel.cs" />
+    <Compile Include="ExecutionPanel.cs" />
+    <Compile Include="ListingPanel.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
