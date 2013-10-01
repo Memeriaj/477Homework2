@@ -27,8 +27,9 @@ namespace PluginApp
         public MainWindow()
         {
             InitializeComponent();
-            // for plugin in ListingPanel.plugins
-            // statusPanel.subscribe
+            // grab all the types from the dlls
+            // create a PluginButton for each of the dlls and add them to the listing panel
+            // for each PluginButton, PluginButton.OpenPlugin += executionPanel.switchPlugin
         }
     }
 }

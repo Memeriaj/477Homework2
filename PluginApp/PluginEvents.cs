@@ -8,11 +8,11 @@ namespace PluginApp
 {
     class PluginSelectedEventArgs : EventArgs
     {
-        public AbstractPlugin Plugin { get; set; }
+        public Type PluginType { get; set; }
 
-        public PluginSelectedEventArgs(AbstractPlugin plugin)
+        public PluginSelectedEventArgs(Type pluginType)
         {
-            Plugin = plugin;
+            PluginType = pluginType;
         }
     }
 
