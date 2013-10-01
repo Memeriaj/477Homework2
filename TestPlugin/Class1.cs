@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PluginApp
+namespace TestPlugin
 {
-    abstract class AbstractPanel
+    public class Class1
     {
-        abstract void init();
-        abstract void display();
     }
 }

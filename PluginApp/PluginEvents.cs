@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PluginApp
 {
-    class PluginSelectedEventArgs : EventArgs
+    public class PluginSelectedEventArgs : EventArgs
     {
         public Type PluginType { get; set; }
 
@@ -16,7 +16,7 @@ namespace PluginApp
         }
     }
 
-    class StatusPostedEventArgs : EventArgs
+    public class StatusPostedEventArgs : EventArgs
     {
         public string Status { get; set; }
 

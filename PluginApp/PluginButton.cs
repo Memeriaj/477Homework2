@@ -3,7 +3,7 @@ using System.Windows.Controls;
 
 namespace PluginApp
 {
-    class PluginButton : Button
+    public class PluginButton : Button
     {
         private string name;
         private Type pluginType;
