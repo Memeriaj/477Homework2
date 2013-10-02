@@ -18,3 +18,8 @@ C:\Users\macaslje\Documents\_Rose-Hulman\_2013-2014\_Fall\1 Software Architectur
 C:\Users\macaslje\Documents\_Rose-Hulman\_2013-2014\_Fall\1 Software Architecture\477Homework2\PluginApp\obj\Debug\PluginApp.csproj.GenerateResource.Cache
 C:\Users\macaslje\Documents\_Rose-Hulman\_2013-2014\_Fall\1 Software Architecture\477Homework2\PluginApp\obj\Debug\PluginApp.exe
 C:\Users\macaslje\Documents\_Rose-Hulman\_2013-2014\_Fall\1 Software Architecture\477Homework2\PluginApp\obj\Debug\PluginApp.pdb
+C:\Users\macaslje\Documents\_Rose-Hulman\_2013-2014\_Fall\1 Software Architecture\477Homework2\PluginApp\obj\Debug\PluginApp.csprojResolveAssemblyReference.cache
+C:\Users\macaslje\Documents\_Rose-Hulman\_2013-2014\_Fall\1 Software Architecture\477Homework2\PluginApp\bin\Debug\PluginApp.exe.manifest
+C:\Users\macaslje\Documents\_Rose-Hulman\_2013-2014\_Fall\1 Software Architecture\477Homework2\PluginApp\bin\Debug\PluginApp.application
+C:\Users\macaslje\Documents\_Rose-Hulman\_2013-2014\_Fall\1 Software Architecture\477Homework2\PluginApp\obj\Debug\PluginApp.exe.manifest
+C:\Users\macaslje\Documents\_Rose-Hulman\_2013-2014\_Fall\1 Software Architecture\477Homework2\PluginApp\obj\Debug\PluginApp.application

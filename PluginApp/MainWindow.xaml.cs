@@ -4,6 +4,7 @@ using System.IO;
 using System.Reflection;
 using System.Windows;
 using System.Windows.Forms;
+using System.Windows.Input;
 
 namespace PluginApp
 {
@@ -37,6 +38,16 @@ namespace PluginApp
                         }
                     }
                 }
+            }
+            statusPoster.KeyDown += postStatus;
+        }
+
+        private void postStatus(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                statusPanel.postStatus(this, statusPoster.Text);
+                statusPoster.Text = "";
             }
         }
     }

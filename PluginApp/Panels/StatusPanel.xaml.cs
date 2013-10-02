@@ -29,5 +29,10 @@ namespace PluginApp
         {
             statusBox.Text = sender.GetType().ToString() + ": " + args.Status + "\n" + statusBox.Text;
         }
+
+        public void postStatus(object sender, string status)
+        {
+            statusBox.Text = sender.GetType().ToString() + ": " + status + "\n" + statusBox.Text;
+        }
     }
 }

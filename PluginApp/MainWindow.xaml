@@ -13,7 +13,14 @@
                 <ColumnDefinition Width="150*"/>
                 <ColumnDefinition Width="375*"/>
             </Grid.ColumnDefinitions>
-            <pluginApp:ListingPanel x:Name="listingPanel" Grid.Column="0"/>
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="22"/>
+                </Grid.RowDefinitions>
+                <pluginApp:ListingPanel x:Name="listingPanel" Grid.Row="0"/>
+                <TextBox x:Name="statusPoster" Grid.Row="1" />
+            </Grid>
             <pluginApp:ExecutionPanel x:Name="executionPanel" Grid.Column="1"/>
         </Grid>
         <pluginApp:StatusPanel Grid.Row="1"  x:Name="statusPanel"/>
